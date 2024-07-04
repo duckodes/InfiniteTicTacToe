@@ -1,0 +1,56 @@
+body {
+  font-size: 15pt;
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95dvw;
+  height: 100dvh;
+  overflow: hidden;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.turn {
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  opacity: 0.3;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  color: #000;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+.gg {
+  width: 100dvw;
+  height: 100dvh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: #000c;
+}
+.board {
+  color: #fff;
+  font-size: 50px;
+  text-shadow: #FC0 1px 0 10px;
+}
